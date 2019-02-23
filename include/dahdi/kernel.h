@@ -43,6 +43,7 @@
 #include <linux/cdev.h>
 #include <linux/module.h>
 #include <linux/ioctl.h>
+#include <linux/slab.h>
 
 #ifdef CONFIG_DAHDI_NET	
 #include <linux/hdlc.h>
